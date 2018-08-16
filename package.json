@@ -30,5 +30,9 @@
   "eslintIgnore": [ "coverage", "dist" ],
   "ci": {
     "version": "8"
-  }
+  },
+  "files": [
+    "index.js",
+    "boilerplate"
+  ]
 }
