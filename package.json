@@ -16,9 +16,7 @@
     "url": "git@github.com:eggjs/egg-boilerplate-sequelize.git"
   },
   "author": "dead_horse<dead_horse@qq.com>",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
@@ -28,7 +26,10 @@
     "eslint": "^5.3.0",
     "eslint-config-egg": "^7.0.0"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "ci": {
     "version": "8"
   },
