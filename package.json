@@ -1,0 +1,34 @@
+{
+  "name": "egg-boilerplate-sequelize",
+  "version": "1.0.0",
+  "description": "init egg project with sequelize",
+  "scripts": {
+    "autod": "autod",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run build",
+    "ci": "npm run test",
+    "build": "egg-init dist --force --silent --template=./"
+  },
+  "homepage": "https://github.com/eggjs/egg-boilerplate-sequelize",
+  "bugs": "https://github.com/eggjs/egg/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eggjs/egg-boilerplate-sequelize.git"
+  },
+  "author": "dead_horse<dead_horse@qq.com>",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.8.1",
+    "egg-mock": "^3.19.2",
+    "eslint": "^5.3.0",
+    "eslint-config-egg": "^7.0.0"
+  },
+  "eslintIgnore": [ "coverage", "dist" ],
+  "ci": {
+    "version": "8"
+  }
+}
